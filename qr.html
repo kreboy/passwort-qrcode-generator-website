@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate QR codes from text or links.">
+    <meta name="author" content="EDEN">
+    <meta name="keywords" content="QR code generator, generate QR codes, create QR codes, text to QR code">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="QR Code Generator">
+    <meta property="og:description" content="Generate QR codes from text or links quickly and easily.">
+    <meta property="og:image" content="assets/img/logo.png">
+    <meta property="og:url" content="https://www.pwgen.eu">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="QR Code Generator">
+    <meta name="twitter:description" content="Generate QR codes from text or links quickly and easily.">
+    <meta name="twitter:image" content="assets/img/logo.png">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="assets/css/qr.css">
+    <link rel="stylesheet" href="assets/css/cookie.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    </head>      
+<body>
+
+  <div id="loading-overlay">
+    <div class="loader"></div>
+  </div>
+
+  <header>
+    <h1>QR Code Generator</h1>
+    <nav>
+      <ul>
+        <li><a href="password-generator.html">Password Generator</a></li>
+        <li><a href="qr.html" class="active">QR Code Generator</a></li>
+      </ul>
+    </nav>
+    <a href="index.html">
+        <button class="qr-generator-section">Home</button>
+    </a>
+  </header>
+
+  <main>
+    <section class="generator" aria-labelledby="qr-generator-section">
+      <h2 id="qr-generator-section">Generate a QR Code</h2>
+      <form id="qr-form" onsubmit="return false;">
+        <label for="qr-text">Text or URL:</label>
+        <input type="text" id="qr-text" placeholder="Enter text or URL" aria-label="Text or URL for QR Code">
+        <button id="generate-qr-btn" aria-label="Generate QR Code">Generate QR Code</button>
+      </form>
+
+      <div class="qr-output">
+        <label for="qr-output">QR Code:</label>
+        <div id="qr-output"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Generator Tools | Created with ❤️ by EDEN</p>
+  </footer>
+
+  <script src="assets/js/qr-app.js"></script>
+</body>
+</html>
