@@ -1,6 +1,6 @@
-# Generator Tools 🚀
+# Password/QrCode Generator 🚀
 
-Willkommen zu **Generator Tools**! Diese Website bietet eine Sammlung nützlicher Werkzeuge, die dir helfen, sichere Passwörter zu generieren und QR-Codes zu erstellen. Die Website ist einfach zu bedienen und bietet benutzerfreundliche Funktionen für die Erstellung von Passwörtern und QR-Codes.
+Diese **Website** bietet eine Sammlung nützlicher Werkzeuge, die dir helfen, sichere Passwörter zu generieren und QR-Codes zu erstellen. Die Website ist einfach zu bedienen und bietet benutzerfreundliche Funktionen für die Erstellung von Passwörtern und QR-Codes.
 
 ## 📦 Features
 
