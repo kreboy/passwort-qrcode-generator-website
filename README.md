@@ -23,4 +23,4 @@ Die Website wurde mit den folgenden Technologien entwickelt:
 
 1. **Repository klonen**:
    ```bash
-   
+   git clone https://github.com/kreboy/passwort-qrcode-generator-website.git
